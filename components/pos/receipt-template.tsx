@@ -36,7 +36,7 @@ export function ReceiptTemplate({
   change,
   customerName,
   cashierName,
-  storeName = 'CidPOS',
+  storeName = 'RAVEN',
   storeAddress,
   storePhone,
   receiptFooter,

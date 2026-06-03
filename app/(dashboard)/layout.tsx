@@ -19,7 +19,7 @@ export default async function DashboardLayout({
   const storeSettingsResult = await getStoreSettings()
   const storeName = storeSettingsResult.success && storeSettingsResult.data
     ? storeSettingsResult.data.storeName
-    : 'CidPOS'
+    : 'RAVEN'
 
   return (
     <div className="flex h-screen overflow-hidden">

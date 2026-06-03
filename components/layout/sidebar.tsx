@@ -93,7 +93,7 @@ const menuItems = [
   },
 ]
 
-export function Sidebar({ storeName = 'CidPOS' }: SidebarProps) {
+export function Sidebar({ storeName = 'RAVEN' }: SidebarProps) {
   const pathname = usePathname()
   const { hasPermission, isLoading } = usePermission()
 

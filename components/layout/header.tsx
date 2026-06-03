@@ -23,7 +23,7 @@ interface HeaderProps {
   storeName?: string
 }
 
-export function Header({ user, storeName = 'CidPOS' }: HeaderProps) {
+export function Header({ user, storeName = 'RAVEN' }: HeaderProps) {
 
   const initials = user.fullName
     .split(' ')
